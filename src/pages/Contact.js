@@ -17,63 +17,6 @@ function Contact() {
 
   return (
     <>
-      {/* <div className="form-container">
-        <div className="info-container">
-        </div>
-        <div>
-        <form className="form-section" onSubmit={handleSubmit}>
-        <h1>GET IN TOUCH</h1>
-        <p>
-        I’m delighted that you want to know more! For commission, quotes and collaboration, please get in touch via the
-          form below.
-        </p>
-        <br />
-          <label>
-            First Name
-            <input
-              type="text"
-              value={firstName}
-              onChange={(e) => setFirstName(e.target.value)}
-            />
-          </label>
-          <label>
-            Last Name
-            <input
-              type="text"
-              value={lastName}
-              onChange={(e) => setLastName(e.target.value)}
-            />
-          </label>
-          <label>
-            Email Address
-            <input
-              type="text"
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
-            />
-          </label>
-          <label>
-            Subject <select value={subject} onChange={(e) => setSubject(e.target.value)} >
-              <option value="Bespoke Stationery">Bespoke Stationery</option>
-              <option value="Hand Painted Candles">Hand Painted Candles</option>
-              <option value="Custom Signage">Custom Signage</option>
-              <option value="Letter From Santa (Seasonal)">Letter From Santa (Seasonal)</option>
-            </select>
-          </label>
-          <br></br>
-          <label>
-            Message
-            <input
-              className="message-container"
-              type="text"
-              value={message}
-              onChange={(e) => setMessage(e.target.value)}
-            />
-          </label>
-          <input type="submit" value="Send Enquiry" />
-        </form>
-        </div>
-        </div> */}
       <div className="form-container">
         <Form onSubmit={handleSubmit}>
           <div class="row g-3">
@@ -115,6 +58,9 @@ function Contact() {
               onChange={(e) => setEmail(e.target.value)}
             />
           </div>
+          <label for="exampleFormControlInput1" class="form-label">
+              Subject
+            </label>
           <Form.Check
             type="switch"
             id="custom-switch"

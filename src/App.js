@@ -1,24 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import './Styling/App.css'
+import NavigationBar from './Navbar';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import 'bootstrap/dist/css/bootstrap.min.css';
+// import Cakes from "./pages/Cakes";
+// import Treats from "./pages/Treats";
+// import Gallery from "./pages/Gallery";
+// import Contact from "./pages/Contact";
+// import About from "./pages/About";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Router>
+        <NavigationBar />
+          {/* <ScrollToTop /> */}
+        <Routes>
+          <Route path="/" element={<Home />} />
+          
+          {/* <Route path="/cakes" element={<Cakes />} /> */}
+          {/* <Route path="/treats" element={<Treats />} /> */}
+          {/* <Route path="/gallery" element={<Gallery />} /> */}
+          {/* <Route path="/about" element={<About />} /> */}
+          {/* <Route path="/contact" element={<Contact />} /> */}
+        </Routes>
+      </Router>
+    </>
   );
 }
 

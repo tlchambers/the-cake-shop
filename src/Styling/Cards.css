@@ -20,7 +20,7 @@ body{
 }
 
 .container-fluid .row{
-  padding-top: 4rem;
+  padding-top: -100px;
 }
 
 .over-flow{

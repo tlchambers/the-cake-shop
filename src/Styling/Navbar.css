@@ -1,9 +1,13 @@
 .navbar{
   background-color: #f8f8f8!important;
+  /* font-family: "Cinzel", serif; */
+  justify-content: center;
+
 }
-.navbar .navbar-brand img {
-  max-width: 120px;
-  margin-left: 100px;
+
+.nav-link {
+  margin-top: -0.3rem;
+  margin-right: 16px;
 }
 
 @media screen and (min-width: 768px) {

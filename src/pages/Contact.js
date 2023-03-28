@@ -58,30 +58,16 @@ function Contact() {
               onChange={(e) => setEmail(e.target.value)}
             />
           </div>
-          <label for="exampleFormControlInput1" class="form-label">
+            <label for="exampleFormControlInput1" class="form-label">
               Subject
             </label>
-          <Form.Check
-            type="switch"
-            id="custom-switch"
-            label="Cakes"
-            value={subject}
+            <input
+              type="subject"
+              class="form-control"
+              id="exampleFormControlInput1"
+              value={subject}
             onChange={(e) => setSubject(e.target.value)}
-          />
-          <Form.Check
-            type="switch"
-            id="custom-switch"
-            label="Cupcakes"
-            value={subject}
-            onChange={(e) => setSubject(e.target.value)}
-          />
-          <Form.Check
-            type="switch"
-            id="custom-switch"
-            label="Treats"
-            value={subject}
-            onChange={(e) => setSubject(e.target.value)}
-          />
+            />
           <div class="mb-3">
             <label for="exampleFormControlTextarea1" class="form-label">
               Message

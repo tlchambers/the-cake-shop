@@ -1,0 +1,37 @@
+..container-fluid{
+  /* height: 400px; */
+  background-color: #f5e9d7;
+} 
+
+/* .over-flow{
+  overflow: hidden;
+} */
+
+.banner-img {
+  max-width: 100%;
+}
+
+.row {
+  align-items: center;
+  margin-top: 150px;
+}
+
+
+@media screen and (max-width: 567px) {
+  .banner {
+    text-align: center;
+  }
+}
+
+h4 {
+  font-family: "Cinzel", serif;
+  font-weight: bold;
+}
+
+p {
+  font-family: "Fauna One", serif;
+  font-size: 13px;
+  margin-top: 16px;
+  margin-left: 70px;
+  margin-right: 30px;
+}

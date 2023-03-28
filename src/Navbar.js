@@ -8,8 +8,8 @@ import { Button } from "react-bootstrap";
 function NavigationBar() {
   return (
     <>
-      <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
-        <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top text-center">
+        <div class=".container-fluid">
           <a class="navbar-brand" href="/">
             <img src={Logo} alt="" />
           </a>
@@ -25,7 +25,7 @@ function NavigationBar() {
             <i class="fas fa-bars"></i>
           </button>
           <div class="collapse navbar-collapse" id="navbarExample01">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav  mb-lg-0">
               <li class="nav-item active">
                 <a class="nav-link active" aria-current="page" href="/">
                   HOME

@@ -8,7 +8,7 @@ import { Button } from "react-bootstrap";
 function NavigationBar() {
   return (
     <>
-      <nav class="navbar navbar-expand-md bg-light">
+      <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
         <div class="container-fluid">
           <a class="navbar-brand" href="/">
             <img src={Logo} alt="" />
@@ -16,17 +16,17 @@ function NavigationBar() {
           <button
             class="navbar-toggler"
             type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
+            data-mdb-toggle="collapse"
+            data-mdb-target="#navbarExample01"
+            aria-controls="navbarExample01"
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+            <i class="fas fa-bars"></i>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item">
+          <div class="collapse navbar-collapse" id="navbarExample01">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item active">
                 <a class="nav-link active" aria-current="page" href="/">
                   HOME
                 </a>
@@ -57,9 +57,6 @@ function NavigationBar() {
                 </a>
               </li>
             </ul>
-            {/* <form class="d-flex mb-2 me-4" role="search">
-            <input type="text" class="search-hover" name="" />
-            </form> */}
           </div>
         </div>
       </nav>

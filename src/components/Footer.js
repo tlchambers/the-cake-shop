@@ -2,108 +2,94 @@ import React from "react";
 
 function Footer() {
   return (
-    <div className="footer">
-      <footer class="bg-light text-center ">
-        <div class="container p-4">
-          <section class="mb-4">
-            <a class="btn btn-primary btn-floating m-1" href="#!" role="button">
-              <i class="fab fa-facebook-f"></i>
-            </a>
-
-            <a class="btn btn-primary btn-floating m-1" href="#!" role="button">
-              <i class="fab fa-twitter"></i>
-            </a>
-
-            <a class="btn btn-primary btn-floating m-1" href="#!" role="button">
-              <i class="fab fa-google"></i>
-            </a>
-
-            <a class="btn btn-primary btn-floating m-1" href="#!" role="button">
-              <i class="fab fa-instagram"></i>
-            </a>
-
-            <a class="btn btn-primary btn-floating m-1" href="#!" role="button">
-              <i class="fab fa-linkedin-in"></i>
-            </a>
-
-            <a class="btn btn-primary btn-floating m-1" href="#!" role="button">
-              <i class="fab fa-github"></i>
-            </a>
-          </section>
-
-          <section class="mb-4">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
-              distinctio earum repellat quaerat voluptatibus placeat nam,
-              commodi optio pariatur est quia magnam eum harum corrupti dicta,
-              aliquam sequi voluptate quas.
-            </p>
-          </section>
-
-          <section class="">
-            <div class="row">
-              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                <h5 class="sub-heading">Boujie Delights</h5>
-                <p>Here at Boujie Delights you will find tasteful and visually pleasing freshly baked buttercream cakes, cupcakes and treats based in Brockley, South East London.</p>
+    <>
+      <footer className="text-center text-lg-start bg-white">
+        <section className="">
+          <div className="container text-center text-md-start mt-5">
+            <div className="row mt-3">
+              <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                <h6 className="sub-heading">
+                  <i className="text-secondary"></i>BOUJIE DELIGHTS
+                </h6>
+                <p>
+                  Here you can use rows and columns to organize your footer
+                  content. Lorem ipsum dolor sit amet, consectetur adipisicing
+                  elit.
+                </p>
               </div>
 
-              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                <h5 class="text-uppercase">USEFUL LINKS</h5>
-
-                <ul class="list-unstyled mb-0">
-                  <li>
-                    <a href="#!" class="text-dark">
-                      How To Order
-                    </a>
-                  </li>
-                  <li>
-                    <a href="/contact" class="text-dark">
-                      Get In Touch
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#!" class="text-dark">
-                      Gallery
-                    </a>
-                  </li>
-                </ul>
+              <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                <h6 className="text-uppercase fw-bold mb-4">Products</h6>
+                <p>
+                  <a href="#!" className="text-reset">
+                    Bspoke Cakes
+                  </a>
+                </p>
+                <p>
+                  <a href="#!" className="text-reset">
+                    Laravel
+                  </a>
+                </p>
+              </div>
+              <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                <h6 className="text-uppercase fw-bold mb-4">Useful links</h6>
+                <p>
+                  <a href="#!" className="text-reset">
+                    Pricing
+                  </a>
+                </p>
+                <p>
+                  <a href="#!" className="text-reset">
+                    Settings
+                  </a>
+                </p>
+                <p>
+                  <a href="#!" className="text-reset">
+                    Orders
+                  </a>
+                </p>
+                <p>
+                  <a href="#!" className="text-reset">
+                    Help
+                  </a>
+                </p>
               </div>
 
-              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                <h5 class="text-uppercase">POLICY</h5>
-
-                <ul class="list-unstyled mb-0">
-                  <li>
-                    <a href="#!" class="text-dark">
-                      REFUND POLICY
-                    </a>
-                  </li>
-                </ul>
-              </div>
-
-              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                <h5 class="text-uppercase">Contact</h5>
-
-                <ul class="list-unstyled mb-0">
-                  <li>
-                    Email
-                  </li>
-                  <li>
-                    Telephone
-                  </li>
-                </ul>
+              <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                <h6 className="text-uppercase fw-bold mb-4">Contact</h6>
+                <p>
+                  <i className="fas fa-home me-3 text-secondary"></i> Brockley,
+                  South East London
+                </p>
+                <p>
+                  <i className="fas fa-envelope me-3 text-secondary"></i>    info@example.com
+                </p>
+                <p>
+                  <i className="fas fa-phone me-3 text-secondary"></i> + 01 234
+                  567 88
+                </p>
+                <p>
+                  <a
+                    href="https://www.instagram.com/boujiedelights_/"
+                    role="button"
+                  >
+                    <i className="fab fa-instagram me-3 text-secondary"></i>{" "}
+                    @BoujieDelights
+                  </a>
+                </p>
               </div>
             </div>
-          </section>
-        </div>
+          </div>
+        </section>
 
-        <div class="text-center p-3">
-          <a class="text-dark" href="https://mdbootstrap.com/">
-            © 2020 Boujie Delights
+        <div className="text-center p-4">
+          © 2023 Copyright:
+          <a className="text-reset fw-bold" href="https://mdbootstrap.com/">
+            MDBootstrap.com
           </a>
         </div>
       </footer>
-    </div>
+    </>
   );
 }
 

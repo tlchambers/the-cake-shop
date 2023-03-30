@@ -3,7 +3,7 @@ import '../Styling/Cards.css'
 
 const Card = (props) => {
   return (
-    <div className="card text-center shadow">
+    <div className="card text-center">
       <div className="over-flow">
         <img src={props.imgsrc} alt="" className="card-img-top img-fluid"/>
       </div>

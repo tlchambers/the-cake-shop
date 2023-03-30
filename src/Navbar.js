@@ -8,13 +8,13 @@ import { Button } from "react-bootstrap";
 function NavigationBar() {
   return (
     <>
-      <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top text-center">
-        <div class=".container-fluid">
-          <a class="navbar-brand" href="/">
+      <nav className="navbar navbar-expand-lg navbar-light bg-white fixed-top text-center">
+        <div className=".container-fluid">
+          <a className="navbar-brand" href="/">
             <img src={Logo} alt="" />
           </a>
           <button
-            class="navbar-toggler"
+            className="navbar-toggler"
             type="button"
             data-mdb-toggle="collapse"
             data-mdb-target="#navbarExample01"
@@ -22,37 +22,37 @@ function NavigationBar() {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <i class="fas fa-bars"></i>
+            <i className="fas fa-bars"></i>
           </button>
-          <div class="collapse navbar-collapse" id="navbarExample01">
-            <ul class="navbar-nav  mb-lg-0">
-              <li class="nav-item active">
-                <a class="nav-link active" aria-current="page" href="/">
+          <div className="collapse navbar-collapse" id="navbarExample01">
+            <ul className="navbar-nav  mb-lg-0">
+              <li className="nav-item active">
+                <a className="nav-link active" aria-current="page" href="/">
                   HOME
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/cakes">
+              <li className="nav-item">
+                <a className="nav-link" href="/cakes">
                   CAKES
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/treats">
+              <li className="nav-item">
+                <a className="nav-link" href="/treats">
                   TREATS
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/price-guide">
+              <li className="nav-item">
+                <a className="nav-link" href="/price-guide">
                   PRICE GUIDE
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/about">
+              <li className="nav-item">
+                <a className="nav-link" href="/about">
                   ABOUT
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/contact">
+              <li className="nav-item">
+                <a className="nav-link" href="/contact">
                   CONTACT
                 </a>
               </li>

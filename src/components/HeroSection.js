@@ -14,7 +14,7 @@ function HeroSection() {
         <div className="text-container">
           <small>Welcome To</small>
           <h1>Boujie Delights</h1>
-          <a class="hero-btn" href="/cakes" role="button">
+          <a className="hero-btn" href="/cakes" role="button">
             EXPLORE CAKES
           </a>
         </div>

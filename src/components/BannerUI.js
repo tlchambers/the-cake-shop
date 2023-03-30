@@ -3,32 +3,18 @@ import "../Styling/Banner.css";
 
 const Banner = (props) => {
   return (
-    <div class=".container-fluid">
-      <div class="row" style={{backgroundColor: "#f5e9d7"}}>
-        <div class="col ">
-          <h4 className="text-center">{props.title}</h4>
+    <div className=".container-fluid">
+      <div class="row">
+        <div class="col justify-content-center text-center">
+          <h5 className="">{props.title}</h5>
           <p className="text-left">{props.paragraph}</p>
+          <p className="text-left">{props.paragraph2}</p>
         </div>
         <div class="col">
-        <img src={props.imgsrc} alt="" class="float-end" />
+        <img src={props.imgsrc} alt="" className="float-end" />
         </div>
       </div>
     </div>
-    // <div class="jumbotron">
-    //   <div class=".container-fluid">
-    //     <div class="row">
-    //       <div class="col-sm-5">
-    //         <h2 className="banner-title">{props.title}</h2>
-    //         <p className="p-container">{props.paragraph}</p>
-    //       </div>
-    //       <div class="col-sm-7">
-    //         <div className="over-flow">
-    //         <img src={props.imgsrc} alt="" class="banner-img" />
-    //         </div>
-    //       </div>
-    //     </div>
-    //   </div>
-    // </div>
   );
 };
 

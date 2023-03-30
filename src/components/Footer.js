@@ -6,15 +6,13 @@ function Footer() {
     <>
       <div className=".container-fluid">
         <footer className="text-lg-start bg-white">
-          <div className="row mt-3 text-center  justify-content-center align-items-center">
+          <div className="row mt-3 text-center  justify-content-center align-items-start">
             <div className="col-md-3 col-lg-4 col-xl-3 mb-4">
               <h6 className="sub-heading">
                 <i className="text-secondary"></i>BOUJIE DELIGHTS
               </h6>
               <p>
-                Here you can use rows and columns to organize your footer
-                content. Lorem ipsum dolor sit amet, consectetur adipisicing
-                elit.
+              Step into the world of Boujie Delights, where every cake, cupcake, and treat is lovingly handmade in Brockley, South East London. Our bespoke creations are not only visually stunning, but also bursting with flavor, ensuring that every bite is as unforgettable as the occasion itself. Whether you're celebrating a birthday, wedding, or any special occasion, we work closely with you to craft a unique and personalized creation that perfectly matches your vision and needs.
               </p>
             </div>
 

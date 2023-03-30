@@ -6,7 +6,7 @@ import "../Styling/Form.css";
 
 function Contact() {
   const [firstName, setFirstName] = useState("");
-  const [lastName, setLastName] = useState("");
+  // const [lastName, setLastName] = useState("");
   const [email, setEmail] = useState("");
   const [subject, setSubject] = useState("");
   const [message, setMessage] = useState("");
@@ -32,7 +32,7 @@ function Contact() {
                 onChange={(e) => setFirstName(e.target.value)}
               />
             </div>
-            <div className="col">
+            {/* <div className="col">
               <label for="exampleFormControlInput1" className="form-label">
                 Last Name
               </label>
@@ -43,7 +43,7 @@ function Contact() {
                 value={lastName}
                 onChange={(e) => setLastName(e.target.value)}
               />
-            </div>
+            </div> */}
           </div>
           <div className="mb-3">
             <label for="exampleFormControlInput1" className="form-label">

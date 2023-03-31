@@ -4,6 +4,7 @@ import "../Styling/Cakes.css";
 // // import CardItem from "../CardItem";
 import Banner from "../components/BannerUI";
 import Cards from "../components/Cards";
+import Footer from "../components/Footer";
 
 function Treats() {
   return (
@@ -14,6 +15,7 @@ function Treats() {
         paragraph="Lush Cake mixture on a stick dipped in luxurious chocolate these beauties are hand made and will be wrapped and tied if needed."
       />
       <Cards />
+      <Footer />
     </>
   );
 }

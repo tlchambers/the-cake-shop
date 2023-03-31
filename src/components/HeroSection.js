@@ -1,6 +1,5 @@
 import React from "react";
 import "../Styling/HeroSection.css";
-import Footer from "./Footer";
 
 function HeroSection() {
   return (
@@ -19,7 +18,6 @@ function HeroSection() {
           </a>
         </div>
       </div>
-      <Footer />
     </>
   );
 }

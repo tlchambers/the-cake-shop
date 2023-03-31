@@ -20,12 +20,6 @@ function Footer() {
                   stunning, but also bursting with flavor, ensuring that every
                   bite is as unforgettable as the occasion itself. 
                 </p>
-                <p>
-                Whether you're celebrating a birthday, wedding, or any special
-                  occasion, we work closely with you to craft a unique and
-                  personalized creation that perfectly matches your vision and
-                  needs.
-                </p>
               </div>
 
               <div className="col-md-2 col-lg-2 col-xl-2 mb-4">

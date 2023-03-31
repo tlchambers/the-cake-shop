@@ -13,7 +13,6 @@ body {
 .footer-container {
   background-color:  #f8f8f8;
   padding-top: 1px;
-  padding-bottom: 12px;
 }
 
 .footer-container hr {
@@ -34,14 +33,14 @@ a:hover {
   color: #6c757d;
 }
 
-/* Columns */
-/* .col-md-3,
+/* Columns
+.col-md-3,
 .col-md-4,
 .col-lg-2,
 .col-lg-3,
 .col-xl-2,
 .col-xl-3 {
-  margin-bottom: 30px;
+  margin-right: 10px;
 } */
 
 i.fa-map-marker-alt {

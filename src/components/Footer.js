@@ -6,11 +6,11 @@ function Footer() {
     <>
       <div className=".container-fluid">
         <div className="footer-container">
-          <footer className=".text-lg-start bg-white .fixed-bottom">
+          <footer className=".text-lg-start .fixed-bottom">
             <div className="row .mt-3 .text-left justify-content-center align-items-start">
               <div className="col-md-3 col-lg-4 col-xl-3 mb-4">
                 <h6 className="sub-heading">
-                  <i className="text-secondary"></i>BOUJIE DELIGHTS
+                  <i className="text-secondary"></i>BOUJIE DELIGHTS COMPANY
                 </h6>
                 <p>
                   Step into the world of Boujie Delights, where every cake,
@@ -23,7 +23,7 @@ function Footer() {
               </div>
 
               <div className="col-md-2 col-lg-2 col-xl-2 mb-4">
-                <h6 className="sub-heading">Products</h6>
+                <h6 className="sub-heading">USEFUL LINKS</h6>
                 <p>
                   <a href="/cakes" className="text-reset">
                     Bespoke Cakes
@@ -34,9 +34,6 @@ function Footer() {
                     Bespoke Treats
                   </a>
                 </p>
-              </div>
-              <div className="col-md-3 col-lg-2 col-xl-2 mb-4">
-                <h6 className="sub-heading">Useful links</h6>
                 <p>
                   <a href="#!" className="text-reset">
                     Pricing Guide
@@ -48,9 +45,17 @@ function Footer() {
                   </a>
                 </p>
               </div>
+              <div className="col-md-3 col-lg-2 col-xl-2 mb-4">
+                <h6 className="sub-heading">POLICY</h6>
+                <p>
+                  <a href="#!" className="text-reset">
+                    Refund Policy
+                  </a>
+                </p>
+              </div>
 
               <div className="col-md-4 col-lg-3 col-xl-3 mb-md-0 mb-4">
-                <h6 className="sub-heading">Contact</h6>
+                <h6 className="sub-heading">CONTACT</h6>
                 <p>
                   <i className="fas fa-map-marker-alt me-3 text-secondary"></i> Brockley,
                   South East London

@@ -3,6 +3,7 @@ import React from "react";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import "../Styling/Form.css";
+import Footer from "../components/Footer";
 
 function Contact() {
   const [firstName, setFirstName] = useState("");
@@ -89,6 +90,7 @@ function Contact() {
           </div>
         </Form>
       </div>
+      <Footer />
     </>
   );
 }

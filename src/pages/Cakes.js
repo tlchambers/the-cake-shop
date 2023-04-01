@@ -3,7 +3,6 @@ import "../Styling/Cakes.css";
 // // import CardItem from "../CardItem";
 import Banner from '../components/BannerUI';
 import Cards from "../components/Cards";
-import Footer from "../components/Footer";
 
 function Cakes() {
   return (
@@ -15,7 +14,6 @@ function Cakes() {
         paragraph2="Freshly baked buttercream cakes, cupcakes, and treats are not only delicious, but also visually pleasing. Located in Brockley, South East London. "
       />
       <Cards />
-      <Footer />
     </>
   );
 }

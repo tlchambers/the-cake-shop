@@ -4,7 +4,6 @@ import "../Styling/Cakes.css";
 // // import CardItem from "../CardItem";
 import Banner from "../components/BannerUI";
 import Cards from "../components/Cards";
-import Footer from "../components/Footer";
 
 function Treats() {
   return (
@@ -18,7 +17,6 @@ function Treats() {
         needs."
       />
       <Cards />
-      <Footer />
     </>
   );
 }

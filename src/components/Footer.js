@@ -25,13 +25,8 @@ function Footer() {
               <div className="col-md-2 col-lg-2 col-xl-2 mb-4">
                 <h6 className="sub-heading">USEFUL LINKS</h6>
                 <p>
-                  <a href="/cakes" className="text-reset">
+                  <a href="/collections" className="text-reset">
                     Bespoke Cakes
-                  </a>
-                </p>
-                <p>
-                  <a href="/treats" className="text-reset">
-                    Bespoke Treats
                   </a>
                 </p>
                 <p>

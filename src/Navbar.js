@@ -30,7 +30,7 @@ function NavigationBar() {
                 </a>
               </li>
               <li className="nav-item">
-                <a class="nav-link" href="/cakes">
+                <a class="nav-link" href="/collections">
                   BESPOKE CAKES
                 </a>
               </li>

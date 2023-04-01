@@ -9,10 +9,8 @@ const Card = (props) => {
       </div>
       <div className="card-body text-dark">
         <h6 className="card-title">{props.title}</h6>
-        <p className="card-text text secondary">
-        Here at Boujie Delights you will find tasteful and visually pleasing freshly baked buttercream cakes, cupcakes and treats based in Brockley, South East London.
-        </p>
-        
+        <p className="card-text text secondary">{props.text}</p>
+        <p className="card-text text secondary">{props.shopNow}</p>
       </div>
     </div>
   );

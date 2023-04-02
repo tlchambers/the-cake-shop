@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 // import 'bootstrap/dist/css/bootstrap.min.css';
 import Cakes from "./pages/Cakes";
-import Treats from "./pages/Treats";
+import PriceGuide from "./pages/PriceGuide";
 import Gallery from "./pages/Gallery";
 import Contact from "./pages/Contact";
 import About from "./pages/About";
@@ -19,7 +19,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/collections" element={<Cakes />} />
-          <Route path="/treats" element={<Treats />} />
+          <Route path="/price-guide" element={<PriceGuide />} />
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />

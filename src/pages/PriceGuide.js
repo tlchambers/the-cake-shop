@@ -4,6 +4,7 @@ import "../Styling/Cakes.css";
 // // import CardItem from "../CardItem";
 import Banner from "../components/BannerUI";
 import Cards from "../components/Cards";
+import "../Styling/Pricing.css"
 
 function Treats() {
   return (
@@ -17,34 +18,19 @@ function Treats() {
         needs."
         button="View Price List"
       />
-      <div className="container px-4 text-left">
-        <div className="row gx-6">
-          <div className="col">
-            <div className="p-3">
-              <h3>Price List</h3>
-              <hr></hr>
-              <br />
-              <p>
-                My passion for baking started 2021 when I started baking cakes &
-                treats for family and friends. This lead to me experimenting and
-                having fun with making different types of cakes and treats such
-                as chocolate covered strawberries, cakesicles, sugar cookies &
-                chocolate smash hearts. Two years on and I now have my own
-                buttercream cakes business specialising in occasion cakes for
-                birthdays, anniversaries, christenings, baby and bridal showers,
-                charity events & more.
-              </p>
-            </div>
-          </div>
-          <div className="col">
-            <div className="p-6">
-              <img
-                src="https://images.unsplash.com/photo-1622896784083-cc051313dbab?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTd8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=800&q=60"
-                alt=""
-              />
-            </div>
+      <div class=".container-fluid ">
+        <div class=".row">
+          <div className="background-image1">
+          <div class="col">Pricing</div>
           </div>
         </div>
+        <div class="row">
+          <div class="col">Cake Pricing</div>
+        </div>
+        <div class="row">
+          <div class="col">Cupcakes Pricing</div>
+        </div>
+       
       </div>
     </>
   );

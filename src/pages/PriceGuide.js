@@ -19,18 +19,25 @@ function Treats() {
         button="View Price List"
       />
       <div class=".container-fluid ">
-        <div class=".row">
+        <div class=".row .no-gutters">
           <div className="background-image1">
-          <div class="col">Pricing</div>
+          <div class="col justify-content-center">
+            <h3>PRICE GUIDE</h3>
+          </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col">Cake Pricing</div>
+        <div class=".row .no-gutters">
+          <div className="background-image2">
+          <div class="col">
+          <h3>CAKE PRICING</h3></div>
+          </div>
         </div>
-        <div class="row">
-          <div class="col">Cupcakes Pricing</div>
+        <div class=".row .no-gutters">
+          <div className="background-image3">
+          <div class="col">
+          <h3>CUPCAKE PRICING</h3></div>
+          </div>
         </div>
-       
       </div>
     </>
   );

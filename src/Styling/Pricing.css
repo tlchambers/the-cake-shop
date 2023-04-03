@@ -1,0 +1,6 @@
+.background-image1 {
+  background: url('https://upload.wikimedia.org/wikipedia/commons/c/ca/The_Sky_Garden.jpg');
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: center;
+}

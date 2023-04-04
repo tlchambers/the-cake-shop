@@ -4,7 +4,7 @@ import "../Styling/Footer.css";
 function Footer() {
   return (
     <>
-      <div className=".container-fluid">
+      <div className="container-fluid no-padding">
         <div className="footer-container">
           <footer className=".text-lg-start .fixed-bottom">
             <div className="row .mt-3 .text-left justify-content-center align-items-start">
@@ -15,14 +15,13 @@ function Footer() {
                 <p>
                   Step into the world of Boujie Delights, where every cake,
                   cupcake, and treat is lovingly handmade in Brockley, South
-                  East London. 
-                  Our bespoke creations are not only visually
+                  East London. Our bespoke creations are not only visually
                   stunning, but also bursting with flavor, ensuring that every
-                  bite is as unforgettable as the occasion itself. 
+                  bite is as unforgettable as the occasion itself.
                 </p>
               </div>
 
-              <div className="col-md-2 col-lg-2 col-xl-2 mb-4">
+              <div className="col-md-2 col-lg-2 col-xl-2 mb-4 center-text">
                 <h6 className="sub-heading">USEFUL LINKS</h6>
                 <p>
                   <a href="/collections" className="text-reset">
@@ -40,7 +39,7 @@ function Footer() {
                   </a>
                 </p>
               </div>
-              <div className="col-md-3 col-lg-2 col-xl-2 mb-4">
+              <div className="col-md-3 col-lg-2 col-xl-2 mb-4 center-text">
                 <h6 className="sub-heading">POLICY</h6>
                 <p>
                   <a href="#!" className="text-reset">
@@ -49,11 +48,11 @@ function Footer() {
                 </p>
               </div>
 
-              <div className="col-md-4 col-lg-3 col-xl-3 mb-md-0 mb-4">
+              <div className="col-md-4 col-lg-3 col-xl-3 mb-md-0 mb-4 center-text">
                 <h6 className="sub-heading">CONTACT</h6>
                 <p>
-                  <i className="fas fa-map-marker-alt me-3 text-secondary"></i> Brockley,
-                  South East London
+                  <i className="fas fa-map-marker-alt me-3 text-secondary"></i>{" "}
+                  Brockley, South East London
                 </p>
                 <p>
                   <i className="fas fa-envelope me-3 text-secondary"></i>{" "}
@@ -76,8 +75,7 @@ function Footer() {
             </div>
 
             <div className="text-center p-4">
-              <hr />
-              © 2021 Boujie Delights
+              <hr />© 2021 Boujie Delights
               {/* <a className="text-reset fw-bold" href="https://mdbootstrap.com/">
               BoujieDelights.com
           </a> */}

@@ -1,5 +1,5 @@
 import "./Styling/Navbar.css";
-import Logo from "./SabrinaLogo.PNG";
+// import Logo from "./SabrinaLogo.PNG";
 
 function NavigationBar() {
   return (
@@ -7,7 +7,7 @@ function NavigationBar() {
       <nav className="navbar navbar-expand-md bg-light fixed-top justify-content-center text-center">
         <div className=".container-fluid">
           <a className="navbar-brand" href="/">
-            <img src={Logo} alt="" />
+            {/* <img src={Logo} alt="" /> */}
           </a>
           <button
             className="navbar-toggler"
@@ -34,11 +34,11 @@ function NavigationBar() {
                   BESPOKE CAKES
                 </a>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <a class="nav-link" href="/treats">
                   BESPOKE TREATS
                 </a>
-              </li>
+              </li> */}
               <li className="nav-item">
                 <a class="nav-link" href="/price-guide">
                   PRICE GUIDE

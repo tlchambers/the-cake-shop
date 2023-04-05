@@ -1,18 +1,11 @@
-/* .sub-heading{
-  padding-top: 50px;
-  padding-bottom: 12px;
-}
-
-/* Body */
-
 .no-padding {
   padding-left: 0;
   padding-right: 0;
 }
 
-.center-text {
-  text-align: center;
-}
+/* .center-text {
+  text-align: start;
+} */
 
 body {
   font-family: Arial, sans-serif;
@@ -21,24 +14,29 @@ body {
 
 .footer-container {
   background-color: #f8f8f8;
+  color: #000000;
   padding-top: 1px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 13px;
 }
 
 .footer-container hr {
   border-top: 1px solid #dee2e6;
 }
 
-.sub-heading {
+/* .sub-heading {
+  font-family: "Cinzel", serif;
   font-weight: bold;
-}
+  align-items: center;
+} */
 
 a {
   text-decoration: none;
-  color: #212529;
+  color: #000000;
 }
 
 a:hover {
-  color: #6c757d;
+  color: #000000;
 }
 
 /* Columns
@@ -68,15 +66,15 @@ i.fa-instagram {
 }
 
 @media (max-width: 991.98px) {
-  .text-left {
+  /* .text-left {
     text-align: center !important;
-  }
+  } */
 }
 
 @media (max-width: 767.98px) {
-  .text-left {
+  /* .text-left {
     text-align: center !important;
-  }
+  } */
 
   /* .col-md-3,
   .col-md-4 {

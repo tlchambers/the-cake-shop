@@ -7,7 +7,7 @@ export default function About() {
   return (
     <>
       <div className="container px-4 text-left">
-        <div className="row gx-5">
+        <div className=".row gx-5">
           <div className="col">
             <div className="p-3">
               <h3>The Boujie Delights Story</h3>

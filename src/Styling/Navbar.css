@@ -42,3 +42,12 @@
 .navbar-collapse .navbar-nav .nav-link {
   color: #000;
 }
+
+@media (max-width: 576px){
+  .navbar{
+    padding: 28px 0;
+  }
+  a.nav-link{
+    margin-right: 7px 0;
+  }
+}

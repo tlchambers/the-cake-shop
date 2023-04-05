@@ -1,6 +1,49 @@
-.background-image1 {
-  background: url('https://upload.wikimedia.org/wikipedia/commons/c/ca/The_Sky_Garden.jpg');
+.bk-img {
+  background: url('https://images.unsplash.com/photo-1610881101036-55a769706cc7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTc0fHxjYWtlfGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=800&q=60');
   background-repeat: no-repeat !important;
   background-size: cover !important;
   background-position: center;
+  height: 200px;
 }
+
+.text-label,
+.text-hero-bold,
+.text-hero-regular {
+  margin: 24px 0;
+}
+
+.text-label{
+  color: rgb(223, 72, 18);
+  font-size: larger;
+  line-height: 31px;
+}
+
+.text-hero-bold{
+  font-family: "Cinzel", serif;
+  color: #fff;
+  font-size: 72px;
+  line-height: 74px;
+}
+
+.text-hero-regular{
+  font-size: small;
+  line-height: 31px;
+}
+
+.text-hero-sub-heading{
+  font-size: 18px;
+  line-height: 20x;
+  font-family: "Fauna One", serif;
+}
+
+ul {
+  list-style-type: none;
+  line-height: 31px;
+}
+
+@media(min-width:133.98px){
+  .container{
+    width: 84%;
+  }
+}
+

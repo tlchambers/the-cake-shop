@@ -4,7 +4,7 @@ import Logo from "./SabrinaLogo.PNG";
 function NavigationBar() {
   return (
     <>
-      <nav class="navbar navbar-expand-lg navbar-light fixed-top d-flex justify-content-center text-center">
+      <nav class="navbar navbar-expand-lg navbar-light d-flex justify-content-center text-center">
         <a class="navbar-brand" href="/">
           <img src={Logo} alt="" />
         </a>

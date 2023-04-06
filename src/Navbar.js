@@ -1,12 +1,12 @@
 import "./Styling/Navbar.css";
-import Logo from "./SabrinaLogo.PNG";
+// import Logo from "./SabrinaLogo.PNG";
 
 function NavigationBar() {
   return (
     <>
       <nav class="navbar navbar-expand-lg navbar-light d-flex justify-content-center text-center">
         <a class="navbar-brand" href="/">
-          <img src={Logo} alt="" />
+          {/* <img src={Logo} alt="" /> */}
         </a>
         <button
           class="navbar-toggler shadow-none"

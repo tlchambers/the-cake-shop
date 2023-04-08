@@ -15,7 +15,6 @@ function App() {
     <>
       <Router>
         <NavigationBar />
-          {/* <ScrollToTop /> */}
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/cake-collection" element={<Cakes />} />

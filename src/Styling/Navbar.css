@@ -1,7 +1,13 @@
-.navbar {
+.navibar {
+  display:inline-block;
   background-color: #f8f8f8 !important;
+  align-items: center;
+  justify-content:space-between;
   /* font-family: "Cinzel", serif; */
-  /* justify-content: center; */
+}
+
+.navbar-logo{
+  size: 1px;
 }
 
 .nav-item .nav-link {
@@ -9,16 +15,11 @@
   color: #000000;
 }
 
-.navbar .navbar-brand img {
-  max-width: 100px;
-}
-
 .navbar {
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.18);
 }
-.navbar .navbar-brand img {
-  max-width: 100px;
-}
+
+
 @media screen and (min-width: 1200px) {
   .navbar {
     letter-spacing: 0.05em;
